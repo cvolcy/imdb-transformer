@@ -5,7 +5,7 @@
   tb = TransformerBlock(embed_dim, num_heads, fc_dim, rate)
   x = tb(inputs)
 """
-from multi_head_self_attention import MultiHeadSelfAttention
+from .multi_head_self_attention import MultiHeadSelfAttention
 from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Layer, LayerNormalization
 
